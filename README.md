@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Jupyter Notebook
 
 [![Google Group](https://img.shields.io/badge/-Google%20Group-lightgrey.svg)](https://groups.google.com/forum/#!forum/jupyter)
@@ -63,3 +64,25 @@ If you are interested in contributing to the project, see [`CONTRIBUTING.rst`](C
 - [Documentation for Project Jupyter](https://jupyter.readthedocs.io/en/latest/index.html) [[PDF](https://media.readthedocs.org/pdf/jupyter/latest/jupyter.pdf)]
 - [Issues](https://github.com/jupyter/notebook/issues)
 - [Technical support - Jupyter Google Group](https://groups.google.com/forum/#!forum/jupyter)
+=======
+# nbclassic: Jupyter Notebook Server Extension
+
+**A package that provides a simple transition away from Jupyter Notebook to Jupyter Server.**
+
+This library allows you to install both [jupyter/notebook](http://localhost:8888/tree) and a Jupyter Notebook Server Extension side-by-side (and any other Jupyter Server Frontend).
+
+This helps projects like JupyterLab and nteract_on_jupyter transition from jupyter/notebook to jupyter/jupyter_server for the core Jupyter Tornado Server.
+
+## Install
+
+Install from PyPI:
+```
+pip install nbclassic
+```
+
+Launch with Jupyter Server:
+```
+jupyter server
+```
+and go to: http://localhost:8888/tree?token=...
+>>>>>>> working notebook extension!
